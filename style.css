@@ -1,0 +1,107 @@
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+    vertical-align:baseline;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    background: rgb(23,38,119);
+    background: linear-gradient(
+        45deg, 
+        rgb(30, 46, 141) -30%, 
+        rgba(5,10,36,1) 30% 70%, 
+        rgba(30,46,141) 120%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    color:white;
+}
+
+.logo img {
+    width: 20%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.message {
+    padding: 3%;
+}
+
+.left p {
+    
+    color: #6a6a6b;
+    font-size: 4vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.login {
+    width: 350px;
+    height: 450px;
+    margin: auto;
+
+    border: 1px solid rgb(30, 46, 141);
+    border-radius: 5%;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.btnCreate {
+    background-color:#007DFA;
+    color: white;
+    margin:20px 0 0 0;
+    width: 250px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btnGoogle {
+    background-color:#E0EFFE;
+    color:#007DFA;
+    margin:10px 0 0 0;
+    width: 250px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    /* background-image: url(./images/logo-google.png);
+    background-repeat: no-repeat;
+    vertical-align: center; */
+}
+
+.cxText {
+    border: thin solid lightgray;
+    border-radius: 8px;
+    height: 35px;
+    width: 250px;
+    margin-bottom: 15px;
+
+    
+}
